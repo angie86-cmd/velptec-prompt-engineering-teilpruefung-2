@@ -2,7 +2,7 @@
 
 ## Recommended Prompting Technique
 
-Static prompting.
+**Static prompting.**
 
 ## Rationale
 
@@ -10,6 +10,7 @@ A scientific blog article can be generated through a well-structured one-time pr
 
 ## Static Prompt
 
+```text
 Write a detailed scientific blog article on the topic:
 
 "The impact of Artificial Intelligence on the labor market"
@@ -27,3 +28,4 @@ Structure the article as follows:
 7. Conclusion
 
 Use a factual, balanced and understandable tone. Avoid exaggeration. Include examples from office work, software development, customer service and industrial automation.
+```

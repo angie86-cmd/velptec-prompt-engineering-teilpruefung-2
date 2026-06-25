@@ -1,34 +1,33 @@
 # Scenario 3: Sales Trend Analysis
 
+# Scenario 2: Scientific Blog Article
+
 ## Recommended Prompting Technique
 
-Analytical prompting with structured instructions.
+**Static prompting.**
 
 ## Rationale
 
-A sales trend analysis requires precise input data, clear calculation logic, defined output criteria and structured interpretation. The prompt should guide the AI to analyze data systematically and separate observations from assumptions.
+A scientific blog article can be generated through a well-structured one-time prompt because the task has a clear topic, expected structure, target audience and output format.
 
-## Analytical Prompt
+## Static Prompt
 
-You are a data analysis assistant. Analyze the sales figures of the last five years.
+```text
+Write a detailed scientific blog article on the topic:
 
-Use the following structure:
+"The impact of Artificial Intelligence on the labor market"
 
-1. Validate whether the data is complete and plausible.
-2. Calculate year-over-year growth rates.
-3. Identify upward, downward or stable trends.
-4. Detect unusual changes or outliers.
-5. Summarize the main business interpretation.
-6. State limitations of the analysis.
-7. Recommend next analytical steps.
+Target audience: educated non-specialists.
 
-Input data:
+Structure the article as follows:
 
-Year | Sales Revenue
-2021 | [value]
-2022 | [value]
-2023 | [value]
-2024 | [value]
-2025 | [value]
+1. Introduction
+2. Current developments in AI and automation
+3. Effects on existing jobs
+4. Creation of new roles and skills
+5. Risks for employees and organizations
+6. Opportunities for education and lifelong learning
+7. Conclusion
 
-Use clear calculations and explain the results in business-oriented language.
+Use a factual, balanced and understandable tone. Avoid exaggeration. Include examples from office work, software development, customer service and industrial automation.
+```

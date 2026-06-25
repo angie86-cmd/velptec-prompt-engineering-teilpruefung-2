@@ -2,13 +2,18 @@
 
 ## Prompting Techniques Combined
 
-- Dialog-based prompting
-- Analytical prompting
-- Iterative refinement
-- Structured output prompting
+- **Dialog-based prompting**
+- **Analytical prompting**
+- **Iterative refinement**
+- **Structured output prompting**
+
+## Rationale
+
+A comprehensive market analysis benefits from a combination of dialog-based and analytical prompting. The dialog-based part helps clarify missing information before the analysis begins. The analytical part ensures that the final output is structured, business-oriented and transparent about assumptions and data limitations.
 
 ## Combined Prompt
 
+```text
 You are a market analysis assistant.
 
 Your task is to support the evaluation of a new product idea. Work in two phases.
@@ -40,3 +45,4 @@ After the clarification, create a structured market analysis with the following 
 9. Suggested next validation steps
 
 Use a factual and business-oriented style. Separate confirmed information from assumptions. If data is missing, explicitly state what additional information would be required.
+```
