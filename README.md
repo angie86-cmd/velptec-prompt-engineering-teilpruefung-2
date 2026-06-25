@@ -23,6 +23,7 @@ prompts/
 
 screenshots/
 README.md
+```
 
 ## Purpose
 
